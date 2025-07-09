@@ -234,10 +234,10 @@ class Hospital:
                 print("Attempting to connect to the database...")
                 # Connect to the MySQL database with a timeout
                 conn = mysql.connector.connect(
-                    host="localhost",
-                    user="root",  
-                    password="Chinnu@123",
-                    database="srikanthdb",
+                    host="?",
+                    user="?",  
+                    password="?",
+                    database="?",
                     connection_timeout=5
                 )
                 print("Connected to the database successfully")
